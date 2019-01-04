@@ -34,5 +34,6 @@ WME: `E320058433666`
 # Available bots
 
 [@catzcatzcatzbot](https://t.me/catzcatzcatzbot) - for cat lovers
+
 [@dogzdogzdogzbot](https://t.me/dogzdogzdogzbot) - for dog lovers
 
