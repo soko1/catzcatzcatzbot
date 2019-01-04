@@ -14,7 +14,8 @@ Do you want feed my cat?
 Bitcoin: `1NYYFoJiRPnkmFbcv5kYLqwsweix1cVmBT`
 
 (Webmoney)
-WMZ: `Z156396869707`
-WMR: `R409106892241`
+
+WMZ: `Z156396869707`<br>
+WMR: `R409106892241`<br>
 WME: `E320058433666`
 
