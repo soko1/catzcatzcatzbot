@@ -1,0 +1,12 @@
+aiohttp
+async-timeout
+attrs
+certifi
+chardet
+idna
+instagram-explore
+multidict
+requests
+telepot
+urllib3
+yarl

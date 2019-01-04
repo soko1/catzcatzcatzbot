@@ -1,6 +1,6 @@
 [SYSTEM]
 BOT_API = _YOUR_API_CODE_
-DB_WRITE_COMMANDS = /home/user/catzcatzcatzbot/requests_catz.log
+DB_WRITE_COMMANDS = /tmp/requests_catz.log
 TAG = cats
 
 [MESSAGES]

@@ -8,7 +8,6 @@ from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton, \
 ReplyKeyboardRemove, ForceReply, InlineKeyboardButton
 import configparser
 import instagram_explore as ie
-from IPython import embed
 import os
 import asyncio
 import re
