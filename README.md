@@ -1,6 +1,18 @@
 **catzcatzcatzbot** - this is a universal telegram-bot for displaying Instagram pictures by tag. Originally written as a bot to show cats :)
 By the way, subscribe: [@catzcatzcatzbot](https://t.me/catzcatzcatzbot)
 
+# Installing and runing
+
+```
+$ git clone https://github.com/soko1/catzcatzcatzbot
+$ cd catzcatzcatzbot
+$ pip install -r requirements.txt
+$ cp config.ini.sample config_animals.ini
+(editing config)
+$ ./catzcatzcatzbot.py -c config_animals.ini
+```
+
+The script supports simultaneous launch with different configs! Use different configs for this and specify the argument `-c`.
 
 # Contacts
 
