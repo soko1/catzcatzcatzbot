@@ -1,0 +1,33 @@
+[SYSTEM]
+BOT_API = _YOUR_API_CODE_
+DB_WRITE_COMMANDS = /home/user/catzcatzcatzbot/requests_catz.log
+TAG = cats
+
+[MESSAGES]
+
+PICTURE_BUTTON = CATZ CATZ CATZ!
+CONTACT_BUTTON = contacts
+DONATE_BUTTON = feed my cat
+
+DESCRIPTION_PICTURE = Get more @catzcatzcatzbot
+
+DONATE = It's me and my cat.
+    
+	Do you want feed my cat?
+
+	Bitcoin: `1NYYFoJiRPnkmFbcv5kYLqwsweix1cVmBT`
+
+	(Webmoney)
+	WMZ: `Z156396869707`
+	WMR: `R409106892241`
+	WME: `E320058433666`
+
+DONATE_PICTURE = https://scontent-amt2-1.cdninstagram.com/vp/51e99c0256758b1bf85c19598f992e9d/5C9520EE/t51.2885-15/sh0.08/e35/s640x640/43985621_709559859410851_7106712211814514394_n.jpg
+
+CONTACTS = Contact me: 
+	@gnupg (telegram)
+	nullbsd@gmail.com (email)
+
+HELP = Wonna /catz ?
+	Feed my cat: /donate
+	Contacts for me: @gnupg
