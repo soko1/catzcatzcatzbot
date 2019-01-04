@@ -6,7 +6,7 @@ By the way, subscribe: [@catzcatzcatzbot](https://t.me/catzcatzcatzbot)
 ```
 $ git clone https://github.com/soko1/catzcatzcatzbot
 $ cd catzcatzcatzbot
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 $ cp config.ini.sample config_animals.ini
 (editing config)
 $ ./catzcatzcatzbot.py -c config_animals.ini
