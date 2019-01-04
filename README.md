@@ -37,3 +37,5 @@ WME: `E320058433666`
 
 [@dogzdogzdogzbot](https://t.me/dogzdogzdogzbot) - for dog lovers
 
+[@footzfootzfootzbot](https://t.me/footzfootzfootzbot) - for foot fetish lovers :)
+

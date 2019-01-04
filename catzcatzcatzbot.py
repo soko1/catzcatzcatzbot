@@ -59,6 +59,11 @@ TOTAL_IMAGES = 0
 COUNT_IMAGES = 0
 
 async def main(msg):
+    """
+    main function.
+    sorry, pep8 requires a comment here :)
+    """
+
     chat_id = msg['chat']['id']
     command = msg['text']
 
@@ -69,13 +74,13 @@ async def main(msg):
     elif command.find("/contacts") != -1 or command.find(CONTACT_BUTTON) != -1:
         await BOT.sendMessage(chat_id, CONTACTS)
     # counting unique users
-    elif command.find("/count") != -1:    
+    elif command.find("/count") != -1:
         logfile = open(CONFIG['SYSTEM']['DB_WRITE_COMMANDS'], 'r')
         logfile_content = logfile.read()
         logfile.close()
         num_of_uniq_users = len(set(re.findall('\d+', logfile_content)))
         await BOT.sendMessage(chat_id, str(num_of_uniq_users))
-        return   
+        return
     else:
         photo_url = give_photo(TAG)
         markup = ReplyKeyboardMarkup(keyboard=[
@@ -86,27 +91,31 @@ async def main(msg):
         LOG.flush()
         await BOT.sendPhoto(chat_id, photo_url, caption=DESCRIPTION_PICTURE, reply_markup=markup)
 
-        #
-        # send only links
-        #
-        #await BOT.sendMessage(chat_id, text='[link](%s)\nGet more @catzcatzcatzbot 😺' % give_photo(), 
-        #reply_markup=markup, parse_mode= 'Markdown')
+ 		#
+ 		# send only links
+		#
+		#await BOT.sendMessage(chat_id, text='[link](%s)\nGet more @catzcatzcatzbot 😺' % give_photo(),
+		#reply_markup=markup, parse_mode= 'Markdown')
 
 def give_photo(tag):
-	global COUNT_IMAGES
-	global IMAGES
-	global TOTAL_IMAGES
+    """
+    This function receives the tag and returns the image
+    """
 
-	if COUNT_IMAGES < TOTAL_IMAGES - 1:
-		COUNT_IMAGES += 1
-	else:
-		IMAGES = ie.tag_images(tag).data
-		TOTAL_IMAGES = len(IMAGES)
-		COUNT_IMAGES = 0
+    global COUNT_IMAGES
+    global IMAGES
+    global TOTAL_IMAGES
 
-	print(COUNT_IMAGES)
+    if COUNT_IMAGES < TOTAL_IMAGES - 1:
+        COUNT_IMAGES += 1
+    else:
+        IMAGES = ie.tag_images(tag).data
+        TOTAL_IMAGES = len(IMAGES)
+        COUNT_IMAGES = 0
 
-	return IMAGES[COUNT_IMAGES]
+    print(COUNT_IMAGES)
+
+    return IMAGES[COUNT_IMAGES]
 
 # bot activation
 BOT = telepot.aio.Bot(CONFIG['SYSTEM']['BOT_API'])
