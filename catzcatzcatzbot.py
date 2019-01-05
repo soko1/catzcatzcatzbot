@@ -1,4 +1,25 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+This is a universal telegram-bot for displaying Instagram pictures by tag.
+Originally written as a bot to show cats :)
+By the way, subscribe: @catzcatzcatzbot
+
+Get the code: https://github.com/soko1/catzcatzcatzbot
+
+# Donate
+
+Do you want feed my cat?
+
+Bitcoin: 1NYYFoJiRPnkmFbcv5kYLqwsweix1cVmBT
+
+(Webmoney)
+
+WMZ: Z156396869707
+WMR: R409106892241
+WME: E320058433666
+"""
+
 
 import logging
 
@@ -48,14 +69,10 @@ CONTACT_BUTTON = CONFIG['MESSAGES']['CONTACT_BUTTON']
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 
-# Initialize bot and dispatcher
-#bot = Bot(token=BOT_API)
-#dp = Dispatcher(bot)
-
-# Image only
-#images = ie.tag_images('cats').data
+# global variables
 TOTAL_IMAGES = 0
 COUNT_IMAGES = 0
+IMAGES = None
 
 async def main(msg):
     """
@@ -77,7 +94,7 @@ async def main(msg):
         logfile = open(CONFIG['SYSTEM']['DB_WRITE_COMMANDS'], 'r')
         logfile_content = logfile.read()
         logfile.close()
-        num_of_uniq_users = len(set(re.findall('\d+', logfile_content)))
+        num_of_uniq_users = len(set(re.findall(r'd+', logfile_content)))
         await BOT.sendMessage(chat_id, str(num_of_uniq_users))
         return
     else:
