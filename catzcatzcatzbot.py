@@ -7,6 +7,11 @@ By the way, subscribe: @catzcatzcatzbot
 
 Get the code: https://github.com/soko1/catzcatzcatzbot
 
+# Contacts
+
+@gnupg (telegram)
+nullbsd@gmail.com (email)
+
 # Donate
 
 Do you want feed my cat?
@@ -22,7 +27,6 @@ WME: E320058433666
 
 
 import logging
-
 import os
 import asyncio
 import re
