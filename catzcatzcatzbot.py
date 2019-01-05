@@ -2,16 +2,15 @@
 
 import logging
 
-import telepot
-import telepot.aio
-from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton, \
-ReplyKeyboardRemove, ForceReply, InlineKeyboardButton
-import configparser
-import instagram_explore as ie
 import os
 import asyncio
 import re
 import argparse
+import configparser
+import telepot
+import telepot.aio
+from telepot.namedtuple import ReplyKeyboardMarkup, KeyboardButton
+import instagram_explore as ie
 
 PARSER = argparse.ArgumentParser(description='Help')
 PARSER.add_argument('-c', help='path to config', metavar='config', type=str)
@@ -84,9 +83,9 @@ async def main(msg):
     else:
         photo_url = give_photo(TAG)
         markup = ReplyKeyboardMarkup(keyboard=[
-                    [dict(text=PICTURE_BUTTON)],
-                    [DONATE_BUTTON, KeyboardButton(text=CONTACT_BUTTON)],
-                 ], resize_keyboard=True)
+            [dict(text=PICTURE_BUTTON)],
+            [DONATE_BUTTON, KeyboardButton(text=CONTACT_BUTTON)],
+        ], resize_keyboard=True)
         LOG.write("%s\n" % (chat_id))
         LOG.flush()
         await BOT.sendPhoto(chat_id, photo_url, caption=DESCRIPTION_PICTURE, reply_markup=markup)
