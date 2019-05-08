@@ -23,6 +23,8 @@ nullbsd@gmail.com (email)
 
 Do you want feed my cat?
 
+Paypal: mathematics1688@gmail.com
+
 Bitcoin: `1NYYFoJiRPnkmFbcv5kYLqwsweix1cVmBT`
 
 (Webmoney)
