@@ -14,6 +14,10 @@ $ ./catzcatzcatzbot.py -c config_animals.ini
 
 The script supports simultaneous launch with different configs! Use different configs for this and specify the argument `-c`.
 
+# Screenshot 
+
+<img src="/screenshot.png />
+
 # Contacts
 
 [@gnupg](https://t.me/gnupg) (telegram)<br>
