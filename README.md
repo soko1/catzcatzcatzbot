@@ -16,7 +16,7 @@ The script supports simultaneous launch with different configs! Use different co
 
 # Screenshot 
 
-<img src="/screenshot.png" style="height: 50%;"/>
+<img src="/screenshot.png" width="50%" />
 
 # Contacts
 
