@@ -9,20 +9,14 @@ Get the code: https://github.com/soko1/catzcatzcatzbot
 
 # Contacts
 
-@gnupg (telegram)
 nullbsd@gmail.com (email)
 
 # Donate
 
 Do you want feed my cat?
 
-Bitcoin: 1NYYFoJiRPnkmFbcv5kYLqwsweix1cVmBT
+Bitcoin: bc1qs7v6vfp0xpe2slcpwlhftdeqj2w92r3pkykjn6
 
-(Webmoney)
-
-WMZ: Z156396869707
-WMR: R409106892241
-WME: E320058433666
 """
 
 
