@@ -20,22 +20,14 @@ The script supports simultaneous launch with different configs! Use different co
 
 # Contacts
 
-[@gnupg](https://t.me/gnupg) (telegram)<br>
 nullbsd@gmail.com (email)
 
 # Donate
 
 Do you want feed my cat?
 
-Paypal: mathematics1688@gmail.com
+Bitcoin: `bc1qs7v6vfp0xpe2slcpwlhftdeqj2w92r3pkykjn6`
 
-Bitcoin: `1NYYFoJiRPnkmFbcv5kYLqwsweix1cVmBT`
-
-(Webmoney)
-
-WMZ: `Z156396869707`<br>
-WMR: `R409106892241`<br>
-WME: `E320058433666`
 
 # Available bots
 
